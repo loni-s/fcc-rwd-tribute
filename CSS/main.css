@@ -1,0 +1,144 @@
+/*Color Key:
+Dark Green: #081C15
+Light Green: #D8F3DC
+Shell White: FAF4D3
+Tan: D1AC00
+Salmon: F6BE9A*/
+
+/* Basic Layout */
+html {
+    margin: 0px;
+    padding: 0px;
+    background-color: #D8F3DC;
+    color: #081C15;
+    font-size: 10px;
+}
+
+body {
+    font-family: Lora, monospace;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #081C15;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-bottom: 0;
+}
+
+img {
+    display: block;
+    height: auto;
+    max-width: 60%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    margin-bottom: 50px;
+}
+/* Contents - Containers */
+#main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+}
+
+/* Title Bar */
+#title-container {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    min-height: 25%;
+    width: 100%;
+    background-color: #B7E4C7;
+}
+
+#title {
+    flex-basis: 70%;
+    width: 100%;
+}
+
+/* Title - Tagline Element */
+h2 {
+    font-size: 2rem;
+    min-height: fit-content;
+}
+
+/* Tribute Information */
+#info-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    max-height: fit-content;
+}
+
+/* Tribute Information - Containers */
+#image-container {
+   align-self: flex-start; 
+   display: flex;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   justify-content: flex-start;
+   align-items: center;
+   width: 100%;
+}
+
+#tribute-container {
+    background-color: #D8F3DC;
+    width: 100%;
+}
+
+/*Image & Caption*/
+#img-div {
+    align-self: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#image {
+    align-self: center;
+}
+
+#img-caption {
+    align-self: center;
+    max-width: 70%;
+}
+
+/* Footer */
+#footer-container {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    width: 100%;
+    max-height: 10%;
+    min-height: fit-content;
+    background-color: #B7E4C7;
+}
